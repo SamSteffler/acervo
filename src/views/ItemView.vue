@@ -20,7 +20,7 @@ export default {
   },
   async created() {
     const id = this.$route.params.id
-    const res = await fetch('/teste2/items.json')
+    const res = await fetch('/acervo/items.json')
     const items = await res.json()
     this.item = items.find(i => i.id === id)
   }
