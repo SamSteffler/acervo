@@ -24,7 +24,7 @@ import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   plugins: [vue()],
-  base: '/teste2/',  // Ensure this matches your GitHub Pages repository name
+  base: '/acervo/',  // Ensure this matches your GitHub Pages repository name
   server: {
     historyApiFallback: true, // This will handle route fallbacks for history mode
   }

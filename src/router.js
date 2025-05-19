@@ -10,7 +10,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory('/teste2/'),  // Add the base path for GitHub Pages
+  history: createWebHistory('/acervo/'),  // Add the base path for GitHub Pages
   routes
 })
 
